@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Fashion Website Design</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+           <a href=""><img src="images/logo.jpeg"></a> 
+           <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSES</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+
+           </div>
+           <i class="fa fa-bars" onClick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificates & Online Programmes For 2022</h1>
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/cert2.jpeg" alt="">
+                <h2>Our Certificates & Online Programmes For 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, ea deserunt! Rem provident odit tempore neque, magnam, iure dolorum vel quae necessitatibus modi unde dolor recusandae quaerat similique assumenda nisi officia quasi fugit. Quia, maiores tempora? A, iste placeat nihil, officiis ab omnis incidunt est amet quaerat deserunt, nisi earum?</p> <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis suscipit commodi sint, nobis, consequatur ullam, porro veritatis nisi numquam quo rem. Unde, necessitatibus sequi quas temporibus rerum vitae illum maiores, consectetur magni porro repellendus nulla. Officia optio doloremque aliquam voluptate dolores ratione quidem. Iste dignissimos libero numquam porro ducimus et culpa tempora odit corrupti. Velit, deleniti. Illum aliquam cupiditate, aliquid ratione voluptate incidunt deleniti corrupti, libero quas tempora asperiores. Obcaecati quas amet suscipit ipsam iste omnis? Totam expedita atque cupiditate omnis impedit reiciendis vel aspernatur sit inventore non! Cupiditate earum error excepturi. Nostrum fugit similique repudiandae, sapiente temporibus iusto pariatur?</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptas delectus magnam totam repudiandae. Possimus est, minus sequi atque magnam reprehenderit praesentium eos optio sunt minima assumenda quam soluta. Reiciendis corporis optio nulla aliquam? Architecto ea maiores amet error molestias!</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quos sapiente molestiae iusto non distinctio autem, esse voluptatibus assumenda dignissimos!</p>
+                 
+
+                <div class="comment-box">
+                    <h3>Leave A Comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea  rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn olive-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Shirt Design and Manufacturing</span>
+                    <span>20</span>
+                </div>
+
+                <div>
+                    <span>Pattern Making</span>
+                    <span>15</span>
+                </div>
+
+                <div>
+                    <span>Fashion Illustration</span>
+                    <span>25</span>
+                </div>
+
+                <div>
+                    <span>Fabric Sourcing</span>
+                    <span>30</span>
+                </div>
+
+                <div>
+                    <span>Garment Construction</span>
+                    <span>18</span>
+                </div>
+
+                <div>
+                    <span>Draping</span>
+                    <span>19</span>
+                </div>
+
+                <div>
+                    <span>Surface Pattern Design</span>
+                    <span>30</span>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    
+
+
+
+
+
+   <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Placeat aut eum reprehenderit voluptatibus illum quam doloribus quidem iure minima sit.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-pinterest"></i>
+        </div>
+        <p>Made with  <i class="fa fa-heart-o"></i> by Kawthar Ahmed</p>
+   </section>
+
+
+
+    <!---JavaScript for Toggle Menu--->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+    
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+    
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+    
+</body>
+
+
+</html>
